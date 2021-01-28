@@ -116,7 +116,7 @@ https://getbootstrap.com/
 
 ---
 
-## v0.10
+## v0.10s
 
 - accordion
 
@@ -135,3 +135,22 @@ https://getbootstrap.com/
   - https://getbootstrap.com/docs/5.0/forms/validation/#custom-styles
 
 ---
+
+## v0.12
+
+- footer
+  - profile, twitter, copy right
+
+### 参考
+- d-inline-block
+  - https://getbootstrap.com/docs/5.0/utilities/display/#notation
+- border line
+  - https://getbootstrap.com/docs/5.0/utilities/borders/#additive
+- border color
+  - https://getbootstrap.com/docs/5.0/utilities/borders/#border-color
+- rounded circle border
+  - https://getbootstrap.com/docs/5.0/utilities/borders/#border-radius
+- list
+  - https://getbootstrap.com/docs/5.0/components/list-group/#flush
+- twitter embed
+  - https://publish.twitter.com/#
