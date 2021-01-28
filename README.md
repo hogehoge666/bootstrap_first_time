@@ -5,6 +5,9 @@ Bootstrapで作成するLanding Pageの写経です。
 ### 参考動画
 https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
 
+### 参考サイト
+https://getbootstrap.com/
+
 ---
 
 ## v0.1
@@ -110,3 +113,13 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
 ### 参考
 - card
   - https://getbootstrap.com/docs/5.0/components/card/#example
+
+---
+
+## v0.10
+
+- accordion
+
+### 参考
+- accordion
+  - https://getbootstrap.com/docs/5.0/components/accordion/#example
