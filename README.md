@@ -40,3 +40,14 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
 - 文字色/colors
   - https://getbootstrap.jp/docs/5.0/utilities/colors/#color
 
+---
+
+## v0.4
+
+- スライダー追加
+
+### 参考
+- carousel
+  - https://getbootstrap.com/docs/5.0/components/carousel/#with-captions
+
+---
