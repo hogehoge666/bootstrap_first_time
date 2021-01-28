@@ -33,10 +33,10 @@
                             <a class="nav-link text-white" href="#tab">tab</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-white" href="#">embeds</a>
+                            <a class="nav-link  text-white" href="#embed">embed</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-white" href="#">modal</a>
+                            <a class="nav-link  text-white" href="#modal">modal</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  text-white" href="#">card</a>
@@ -159,8 +159,101 @@
                 このサイトでも使われているようにBootstrapでは様々なコンポーネントが用意されています。 公式サイトで調べながら使いながら慣れていきましょう
             </div>
         </div>
-        
-        
+
+        <!--embed-->
+        <div id="embed">
+            <h2 class="text-center py-3 mt-5">YouTube</h2>
+        </div>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/fou-ZR9LhGM" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
+        <!--modal-->
+        <div id="modal">
+            <h2 class="text-center py-3 mt-5">よくある質問</h2>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <!-- Button -->
+                <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    何ヶ月ぐらい勉強すれば稼げるようになりますか？
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">何ヶ月ぐらい勉強すれば稼げるようになりますか？</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                学習期間は半年から１年は必要だと思います。ただ、早い人であれば3ヶ月ほどで稼いでいる人もいます。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <!-- Button -->
+                <div class="text-dark border p-3" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    WEB制作で必要なスキルは？
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">WEB制作で必要なスキルは？</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                HTML,CSS,JQueryは必須スキルです。その他にJavascript,Bootstrap。 その他デザインツール(Photoshop,XD,Figma)などのデータからのコーディングが出来ると良いです
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <!-- Button -->
+                <div class="text-dark border p-3 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    おすすめのPCはありますか？
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">おすすめのPCはありますか？</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                フロントエンドエンジニアはMacBookを使っている人が多いです。 ただ、まずは持っているPCで勉強を始めるのが良いと思います
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <!-- Button -->
+                <div class="text-dark border p-3 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    プログラミングは独学で勉強可能ですか？
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">プログラミングは独学で勉強可能ですか？</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                プログラミングは独学で身に付けることは出来ると思います。 しかし、初心者のうちはメンターをつけるなど解決方法がわからなくなった時に聞ける人を作るのがおすすめです
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
