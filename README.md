@@ -64,7 +64,7 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
 
 ---
 
-##v0.6
+## v0.6
 
 - flex
 
@@ -75,3 +75,14 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
   - https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
 - 横軸を揃える
   - https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
+
+---
+
+## v0.7
+
+- nav tab
+
+### 参考
+- nav tab
+  - https://getbootstrap.com/docs/5.0/components/navs-tabs/#javascript-behavior
+ 

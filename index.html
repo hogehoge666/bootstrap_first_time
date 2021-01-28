@@ -30,7 +30,7 @@
                             <a class="nav-link text-white" href="#flex">flex</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">tab</a>
+                            <a class="nav-link text-white" href="#tab">tab</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  text-white" href="#">embeds</a>
@@ -120,18 +120,47 @@
             <div class="col-md-6 h3 p-4">
                 ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
             </div>
-            <div class="col-md-6 p-0" >
+            <div class="col-md-6 p-0">
                 <img class="img-fluid" src="img/img7.jpg">
             </div>
         </div>
         <div class="d-flex flex-wrap align-items-center justify-content-center">
-            <div class="col-md-6 p-0" >
+            <div class="col-md-6 p-0">
                 <img class="img-fluid" src="img/img8.jpg">
             </div>
             <div class="col-md-6 h3 p-4">
                 ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
             </div>
         </div>
+
+        <!--tab-->
+        <div id="tab">
+            <h2 class="text-center py-3 mt-5">Bootstrapのタブ</h2>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item col-4" role="presentation">
+                <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">グリッドシステム</a>
+            </li>
+            <li class="nav-item col-4" role="presentation">
+                <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">OOCSS</a>
+            </li>
+            <li class="nav-item col-4" role="presentation">
+                <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">豊富なコンポーネント</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active col-md-8 my-4 mx-auto" id="home" role="tabpanel" aria-labelledby="home-tab">
+                Bootstrapでは横幅を１２個の列に分けたグリッドシステムを採用したデザインになっています。 １２は２,3,4,6で割り切れるのでレスポンシブデザインが用意になっています
+            </div>
+            <div class="tab-pane fade col-md-8 my-4 mx-auto" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                BootStrapではOOCSS（Object-Oriented CSS）というオブジェクト指向CSSが採用されています。 構造と見た目を切り離した設計になります。
+            </div>
+            <div class="tab-pane fade col-md-8 my-4 mx-auto" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                このサイトでも使われているようにBootstrapでは様々なコンポーネントが用意されています。 公式サイトで調べながら使いながら慣れていきましょう
+            </div>
+        </div>
+        
+        
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
