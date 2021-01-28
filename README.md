@@ -61,3 +61,17 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
   https://getbootstrap.com/docs/5.0/content/images/#responsive-images
 - row
   https://getbootstrap.com/docs/5.0/layout/grid/#stacked-to-horizontal
+
+---
+
+##v0.6
+
+- flex
+
+### 参考
+- wrap
+  - https://getbootstrap.com/docs/5.0/utilities/flex/#wrap
+- 縦軸を揃える
+  - https://getbootstrap.com/docs/5.0/utilities/flex/#align-items
+- 横軸を揃える
+  - https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content
