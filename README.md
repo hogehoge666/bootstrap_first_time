@@ -51,3 +51,13 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
   - https://getbootstrap.com/docs/5.0/components/carousel/#with-captions
 
 ---
+
+## v0.5
+
+- row/column追加
+
+### 参考
+- img-fluid
+  https://getbootstrap.com/docs/5.0/content/images/#responsive-images
+- row
+  https://getbootstrap.com/docs/5.0/layout/grid/#stacked-to-horizontal
