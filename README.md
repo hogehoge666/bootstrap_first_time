@@ -123,3 +123,13 @@ https://getbootstrap.com/
 ### 参考
 - accordion
   - https://getbootstrap.com/docs/5.0/components/accordion/#example
+
+---
+
+## v0.11
+
+- form validation
+
+### 参考
+- validation
+  - https://getbootstrap.com/docs/5.0/forms/validation/#browser-defaults
