@@ -91,19 +91,14 @@ https://www.youtube.com/watch?v=fou-ZR9LhGM&feature=youtu.be
 ## v0.8
 
 - embed YouTube Video with 16x9 ratio
+- modal
 
 ### 参考
 - ratio
   - https://getbootstrap.com/docs/5.0/helpers/ratio/#example
-
----
-
-## v0.9
-
-- modal
-
-### 参考
 - base modal
   - https://getbootstrap.com/docs/5.0/components/modal/#live-demo
 - vertically centered
   - https://getbootstrap.com/docs/5.0/components/modal/#vertically-centered
+
+---
